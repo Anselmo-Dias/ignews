@@ -1,0 +1,24 @@
+.subscribe {
+    
+    height: 3.5rem;
+    border-radius: 3rem;
+    background: var(--yellow-500);
+    color: var(--gray-900);
+    border: 0;
+    padding: 0 3.5rem;
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    transition: filter 0.2s ;
+
+    &:hover {
+        filter: brightness(0.8);
+    }
+    
+}
